@@ -1,0 +1,18 @@
+Equipe: Wylker Esperidião da Silva
+
+Projeto razoavelmente difícil, mas depois de quebrar a cabeça um pouco, consegui finalizar.
+
+Desempenho das funções:
+
+    -Adicionar Membro (adicionar_membro): 
+        O tempo de execução dessa operação é O(1), pois apenas adicionamos um novo membro no final da lista e atualizamos o ponteiro.
+
+    -Remover Membro (remover_membro):
+        O tempo de execução para encontrar e remover um membro é O(n). Isso ocorre porque, para encontrar o membro, pode ser necessário percorrer toda a lista.
+
+    -Próximo Responsável (proximo_responsavel):
+        O tempo de execução para essa operação é O(1). Porque a função apenas move o ponteiro do responsável atual para o próximo membro.
+
+    -Mostrar Lista: 
+        O tempo para percorrer toda a lista e exibi-la é O(n), já que precisamos visitar cada membro uma vez.
+
